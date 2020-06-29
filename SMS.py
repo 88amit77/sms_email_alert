@@ -18,7 +18,7 @@ def SMS_Data():
     "sms":[
       {
     "message":"A message for testing perpose....testing 1,2,3. ",
-    "to":["9911179884","8971287208"]
+    "to":["9911179884"]
       }
      ]
     }
