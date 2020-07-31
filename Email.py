@@ -47,7 +47,9 @@ def Mail_Data():
     send_to_emails = ["amit.t@sellerbuymore.com", "88amit77@gmail.com", "7788amittiwari7788@gmail.com"] # List of email addresses
     subject = 'This is the subject'
     message = 'This is my message'
-    file_location = 'C:/photography/pic1.JPEG'
+    # file_location = 'C:/photography/pic1.JPEG'
+    file_location = '/Users/amittiwari/Downloads/anders-jilden-uwbajDCODj4-unsplash.jpg'
+
     Send_Mail(email, password,send_to_emails, subject, message, file_location)
 
 print(Mail_Data())
